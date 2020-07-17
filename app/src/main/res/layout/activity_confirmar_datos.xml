@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/tv_confirmar_datos"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/texto_titulo"
+        android:textColor="@color/colorPrimaryDark">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_nombre"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNombreExtra"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separacion_tv"
+        android:text="@string/hint_nombre"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_fecha_nac"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNacimientoExtra"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separacion_tv"
+        android:text="@string/hint_fecha_nac"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_telefono"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTelefonoExtra"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separacion_tv"
+        android:text="@string/hint_telefono"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_email"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEmailExtra"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separacion_tv"
+        android:text="@string/hint_email"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_descripcion"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvDescripcionExtra"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separacion_tv"
+        android:text="@string/hint_descripcion"
+        android:textAlignment="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_editar"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/separacion_tv"
+        android:backgroundTint="@color/colorAccent">
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
